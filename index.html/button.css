@@ -1,0 +1,70 @@
+body {
+    background-color: #cd488b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    background-color: aliceblue;
+    width: 60%;
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+    border: solid 1px aliceblue;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.log {
+    border: solid 1px #cd488b;
+    background-color: #cd488b;
+    padding: 6px;
+    width: 40%;
+    color: white;
+    border-radius: 3px;
+    border-right: none;
+    position: relative;
+}
+
+input {
+    width: 82%;
+    height: 30px;
+    margin-bottom: 20px;
+   
+} 
+.sign{
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+    width: 35%;
+    color: black;
+    border-top: 1px solid rgb(114, 109, 109);
+    border-right: 1px solid rgb(114, 109, 109);
+    border-bottom: 1px solid rgb(114, 109, 109);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+button {
+    width: 85%;
+    height: 35px;
+    background-color: #cd488b;
+    color: aliceblue;
+    border-radius: 3px;
+    border: 1px solid #cd488b;
+    margin-top: 20px;
+}
+
+a {
+    color: #cd488b;
+}
+
+.forgot {
+margin-left: -120px;
+}
